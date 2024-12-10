@@ -1,7 +1,7 @@
 maestro_node/
 ├── arvi.urdf
-OK├── CMakeLists.txt
-OK├── package.xml
+├── CMakeLists.txt
+├── package.xml
 ├── robot.urdf
 ├── maestro2.yaml
 ├── maestro.yaml
@@ -22,7 +22,7 @@ OK├── package.xml
 │   │   ├── launcher.properties
 │   │   └── private.xml
 │   └── project.xml
-OK└── src/
+└── src/
     ├── maestro_node.cpp
     ├── PololuController.cpp
     ├── ROSMaestroController.cpp

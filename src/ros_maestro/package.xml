@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_maestro</name>
+  <version>0.0.0</version>
+  <description>Driver node for Pololu Maestro</description>
+
+  <!-- Maintainer tag -->
+  <maintainer email="simon.chanu@ensta.bretagne.org">Simon CHANU</maintainer>
+
+  <!-- License tag -->
+  <license>MIT</license>
+
+  <!-- Author tag -->
+  <author email="simon.chanu@ensta-bretagne.org">Simon CHANU</author>
+
+  <!-- Dependencies -->
+  <depend>ament_cmake</depend>
+  <depend>message_generation</depend>
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>rosidl_default_generators</depend>
+  <depend>message_runtime</depend>
+
+  <!-- Test dependencies (optional) -->
+  <depend>ament_lint</depend>
+  <depend>ament_lint_auto</depend>
+
+  <!-- Export section for additional metadata -->
+  <export>
+    <rosdistro name="foxy" />
+  </export>
+</package>
+

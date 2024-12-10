@@ -1,0 +1,39 @@
+ros_maestro/
+├── CMakeLists.txt            # Fichier de configuration CMake
+├── package.xml              # Fichier de configuration du package ROS
+├── README.md                # Documentation du package
+├── LICENSE                  # Licence du package
+├── config/                  # Fichiers de configuration
+│   └── pwmconfig_example.yaml
+├── include/                 # Fichiers d'en-tête pour le code C++
+│   ├── maestro/             # Dossier pour les fichiers d'en-tête et la documentation liés à maestro
+│   │   ├── __init__.py
+│   │   ├── Maestro_doc/     # Documentation relative au module maestro
+│   │   │   ├── LICENSE.md
+│   │   │   └── README.md
+│   │   ├── maestro.py       # Code Python lié à maestro
+│   │   ├── maestro.pyc      # Fichier bytecode Python généré
+│   │   └── maestro_test.py  # Tests unitaires pour maestro
+│   └── maestro_sim/         # Dossier pour les fichiers d'en-tête et code liés à la simulation
+│       ├── __init__.py
+│       ├── maestro_gen.py   # Génération de maestro dans la simulation
+│       ├── maestro.py       # Code Python pour la simulation
+│       ├── maestro_test.py  # Tests pour la simulation
+│       ├── maestro.c        # Code C pour la simulation
+│       ├── maestro.h        # Fichiers d'en-tête C pour la simulation
+│       └── maestro_test.cpp # Tests C++ pour la simulation
+├── launch/                  # Fichiers de lancement ROS
+│   ├── erl.launch
+│   ├── maestro.launch
+│   └── test.launch
+├── msg/                     # Définition des messages ROS
+│   └── PwmCmd.msg
+├── ros_usv_simu_plugin/     # Plugin spécifique pour la simulation USV
+│   └── simu_maestro.py
+├── src/                     # Code source Python
+│   ├── attopilot_driver.py  # Driver pour Attopilot
+│   ├── maestro_driver.py    # Driver pour Maestro
+│   └── relay_driver.py      # Driver pour le relais
+└── setup.py                 # Fichier de configuration de l'installation Python
+
+
