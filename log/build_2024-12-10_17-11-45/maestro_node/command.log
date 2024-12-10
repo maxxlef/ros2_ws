@@ -1,0 +1,3 @@
+Invoking command in '/home/maxime/ros2_ws/build/maestro_node': /usr/bin/cmake /home/maxime/ros2_ws/src/maestro_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/maxime/ros2_ws/install/maestro_node
+Invoked command in '/home/maxime/ros2_ws/build/maestro_node' returned '0': /usr/bin/cmake /home/maxime/ros2_ws/src/maestro_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/maxime/ros2_ws/install/maestro_node
+Invoking command in '/home/maxime/ros2_ws/build/maestro_node': /usr/bin/cmake --build /home/maxime/ros2_ws/build/maestro_node -- -j16 -l16

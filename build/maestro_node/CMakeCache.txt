@@ -50,6 +50,9 @@ Boost_THREAD_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 //No help, variable specified on the command line.
 CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
 
+//No help, variable specified on the command line.
+CATKIN_SYMLINK_INSTALL:UNINITIALIZED=ON
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -340,9 +343,6 @@ ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
 
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
-
-//The directory containing a CMake configuration file for asio.
-asio_DIR:PATH=asio_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for boost_atomic.
 boost_atomic_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.74.0

@@ -18,10 +18,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES std_msgs
 )
 
+
 # Declare the package
 ament_package()
 
-# Include directories
+# Include directories (if necessary)
 include_directories(
   include
 )
@@ -45,8 +46,7 @@ install(DIRECTORY include/${PROJECT_NAME}
 )
 
 # Install message files
-install(FILES
-  msg/PwmCmd.msg
+install(DIRECTORY msg
   DESTINATION share/${PROJECT_NAME}/msg
 )
 
@@ -54,6 +54,9 @@ install(FILES
 install(DIRECTORY config
   DESTINATION share/${PROJECT_NAME}
 )
+
+# Make sure the interface files are found correctly
+ament_export_dependencies(rosidl_default_runtime)
 
 # Testing with ROS2 (you can add tests later if needed)
 # colcon test
