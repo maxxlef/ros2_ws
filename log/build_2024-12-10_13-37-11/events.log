@@ -1,0 +1,281 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (maestro_node) JobQueued: {'identifier': 'maestro_node', 'dependencies': OrderedDict()}
+[0.000280] (maestro_node) JobStarted: {'identifier': 'maestro_node'}
+[0.008824] (maestro_node) JobProgress: {'identifier': 'maestro_node', 'progress': 'cmake'}
+[0.009961] (maestro_node) JobProgress: {'identifier': 'maestro_node', 'progress': 'build'}
+[0.010045] (maestro_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maxime/ros2_ws/build/maestro_node', '--', '-j16', '-l16'], 'cwd': '/home/maxime/ros2_ws/build/maestro_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maxime'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/maxime/libfreenect2/build/lib'), ('HOME', '/home/maxime'), ('OLDPWD', '/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2090'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maxime/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maxime'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maxime'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/maxime/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maxime-Victus-by-HP-Gaming-Laptop-16-s0xxx:@/tmp/.ICE-unix/2059,unix/maxime-Victus-by-HP-Gaming-Laptop-16-s0xxx:/tmp/.ICE-unix/2059'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d874d379_53c3_4f0a_a369_cee8cfeceed2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0QIQY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maxime/ros2_ws/install/my_example_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maxime/ros2_ws/build/maestro_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maxime/ros2_ws/install/my_example_package')]), 'shell': False}
+[0.042983] (maestro_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099196] (-) TimerEvent: {}
+[0.152198] (maestro_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.177104] (maestro_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.178787] (maestro_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.183619] (maestro_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.191090] (maestro_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199313] (-) TimerEvent: {}
+[0.200521] (maestro_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.226510] (maestro_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.227584] (maestro_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299477] (-) TimerEvent: {}
+[0.337995] (maestro_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.376932] (maestro_node) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.389624] (maestro_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.399596] (-) TimerEvent: {}
+[0.474770] (maestro_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.499761] (-) TimerEvent: {}
+[0.538559] (maestro_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.548438] (maestro_node) StdoutLine: {'line': b'-- Generating done\n'}
+[0.549324] (maestro_node) StdoutLine: {'line': b'-- Build files have been written to: /home/maxime/ros2_ws/build/maestro_node\n'}
+[0.578699] (maestro_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target maestro_node\x1b[0m\n'}
+[0.599868] (-) TimerEvent: {}
+[0.602890] (maestro_node) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/maestro_node.dir/src/TimeoutSerial.cpp.o\x1b[0m\n'}
+[0.605660] (maestro_node) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/maestro_node.dir/src/PololuController.cpp.o\x1b[0m\n'}
+[0.605922] (maestro_node) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/maestro_node.dir/src/ROSMaestroController.cpp.o\x1b[0m\n'}
+[0.606032] (maestro_node) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/maestro_node.dir/src/maestro_node.cpp.o\x1b[0m\n'}
+[0.700003] (-) TimerEvent: {}
+[0.800459] (-) TimerEvent: {}
+[0.900983] (-) TimerEvent: {}
+[1.001540] (-) TimerEvent: {}
+[1.102003] (-) TimerEvent: {}
+[1.202461] (-) TimerEvent: {}
+[1.302977] (-) TimerEvent: {}
+[1.403423] (-) TimerEvent: {}
+[1.503889] (-) TimerEvent: {}
+[1.604342] (-) TimerEvent: {}
+[1.704797] (-) TimerEvent: {}
+[1.805286] (-) TimerEvent: {}
+[1.905783] (-) TimerEvent: {}
+[1.992940] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[1.993260] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[1.993350] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[1.993421] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[1.993487] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[1.993551] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[1.993615] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[1.993676] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/time_clock.hpp:17\x1b[m\x1b[K,\n'}
+[1.993734] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10\x1b[m\x1b[K,\n'}
+[1.993793] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/time_traits.hpp:23\x1b[m\x1b[K,\n'}
+[1.993852] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22\x1b[m\x1b[K,\n'}
+[1.993927] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29\x1b[m\x1b[K,\n'}
+[1.993999] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/basic_deadline_timer.hpp:25\x1b[m\x1b[K,\n'}
+[1.994065] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio.hpp:25\x1b[m\x1b[K,\n'}
+[1.994127] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/TimeoutSerial.h:14\x1b[m\x1b[K,\n'}
+[1.994189] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/TimeoutSerial.cpp:20\x1b[m\x1b[K:\n'}
+[1.994250] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.994283] (maestro_node) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[1.994307] (maestro_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.005915] (-) TimerEvent: {}
+[2.106320] (-) TimerEvent: {}
+[2.206779] (-) TimerEvent: {}
+[2.307257] (-) TimerEvent: {}
+[2.407716] (-) TimerEvent: {}
+[2.508124] (-) TimerEvent: {}
+[2.608468] (-) TimerEvent: {}
+[2.708811] (-) TimerEvent: {}
+[2.809183] (-) TimerEvent: {}
+[2.909525] (-) TimerEvent: {}
+[3.009886] (-) TimerEvent: {}
+[3.110244] (-) TimerEvent: {}
+[3.210594] (-) TimerEvent: {}
+[3.310947] (-) TimerEvent: {}
+[3.411293] (-) TimerEvent: {}
+[3.511636] (-) TimerEvent: {}
+[3.611983] (-) TimerEvent: {}
+[3.712342] (-) TimerEvent: {}
+[3.812697] (-) TimerEvent: {}
+[3.913057] (-) TimerEvent: {}
+[4.013402] (-) TimerEvent: {}
+[4.042977] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/PololuController.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PololuController::maestroSetTarget(int, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.043615] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/PololuController.cpp:38:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<std::mutex>::lock_guard(boost::mutex&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.043755] (maestro_node) StderrLine: {'line': b'   38 |     lock_guard<std::mutex> l(pololuMutex\x1b[01;31m\x1b[K)\x1b[m\x1b[K;  // Utilisation de std::mutex au lieu de boost::mutex\n'}
+[4.043857] (maestro_node) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.043958] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:43\x1b[m\x1b[K,\n'}
+[4.044045] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/system/detail/std_interoperability.hpp:13\x1b[m\x1b[K,\n'}
+[4.044131] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/system/error_code.hpp:963\x1b[m\x1b[K,\n'}
+[4.044197] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/throw_error.hpp:19\x1b[m\x1b[K,\n'}
+[4.044264] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23\x1b[m\x1b[K,\n'}
+[4.044330] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/posix_event.hpp:172\x1b[m\x1b[K,\n'}
+[4.044369] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/event.hpp:25\x1b[m\x1b[K,\n'}
+[4.044396] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19\x1b[m\x1b[K,\n'}
+[4.044422] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/execution.hpp:22\x1b[m\x1b[K,\n'}
+[4.044449] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/system_executor.hpp:20\x1b[m\x1b[K,\n'}
+[4.044477] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/associated_executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.044506] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio.hpp:21\x1b[m\x1b[K,\n'}
+[4.044536] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/TimeoutSerial.h:14\x1b[m\x1b[K,\n'}
+[4.044567] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/PololuController.h:11\x1b[m\x1b[K,\n'}
+[4.044597] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/PololuController.cpp:8\x1b[m\x1b[K:\n'}
+[4.044676] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:231:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<_Mutex>::lock_guard(std::lock_guard<_Mutex>::mutex_type&, std::adopt_lock_t) [with _Mutex = std::mutex; std::lock_guard<_Mutex>::mutex_type = std::mutex]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.045048] (maestro_node) StderrLine: {'line': b'  231 |       \x1b[01;36m\x1b[Klock_guard\x1b[m\x1b[K(mutex_type& __m, adopt_lock_t) noexcept : _M_device(__m)\n'}
+[4.045399] (maestro_node) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.045618] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:231:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[4.045811] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:228:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<_Mutex>::lock_guard(std::lock_guard<_Mutex>::mutex_type&) [with _Mutex = std::mutex; std::lock_guard<_Mutex>::mutex_type = std::mutex]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.046077] (maestro_node) StderrLine: {'line': b'  228 |       explicit \x1b[01;36m\x1b[Klock_guard\x1b[m\x1b[K(mutex_type& __m) : _M_device(__m)\n'}
+[4.046273] (maestro_node) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.046506] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:228:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::mutex\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<std::mutex>::mutex_type&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::mutex&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.046794] (maestro_node) StderrLine: {'line': b'  228 |       explicit lock_guard(\x1b[01;36m\x1b[Kmutex_type& __m\x1b[m\x1b[K) : _M_device(__m)\n'}
+[4.046869] (maestro_node) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.046902] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/PololuController.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble PololuController::maestroGetTarget(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.046931] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/PololuController.cpp:50:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<std::mutex>::lock_guard(boost::mutex&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.046975] (maestro_node) StderrLine: {'line': b'   50 |     lock_guard<std::mutex> l(pololuMutex\x1b[01;31m\x1b[K)\x1b[m\x1b[K;  // Utilisation de std::mutex au lieu de boost::mutex\n'}
+[4.047011] (maestro_node) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.047045] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:43\x1b[m\x1b[K,\n'}
+[4.047073] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/system/detail/std_interoperability.hpp:13\x1b[m\x1b[K,\n'}
+[4.047104] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/system/error_code.hpp:963\x1b[m\x1b[K,\n'}
+[4.047132] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/throw_error.hpp:19\x1b[m\x1b[K,\n'}
+[4.047159] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23\x1b[m\x1b[K,\n'}
+[4.047186] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/posix_event.hpp:172\x1b[m\x1b[K,\n'}
+[4.047213] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/detail/event.hpp:25\x1b[m\x1b[K,\n'}
+[4.047239] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19\x1b[m\x1b[K,\n'}
+[4.047266] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/execution.hpp:22\x1b[m\x1b[K,\n'}
+[4.047293] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/system_executor.hpp:20\x1b[m\x1b[K,\n'}
+[4.047320] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio/associated_executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.047349] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/asio.hpp:21\x1b[m\x1b[K,\n'}
+[4.047376] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/TimeoutSerial.h:14\x1b[m\x1b[K,\n'}
+[4.047403] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/PololuController.h:11\x1b[m\x1b[K,\n'}
+[4.047430] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/PololuController.cpp:8\x1b[m\x1b[K:\n'}
+[4.047468] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:231:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<_Mutex>::lock_guard(std::lock_guard<_Mutex>::mutex_type&, std::adopt_lock_t) [with _Mutex = std::mutex; std::lock_guard<_Mutex>::mutex_type = std::mutex]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.047508] (maestro_node) StderrLine: {'line': b'  231 |       \x1b[01;36m\x1b[Klock_guard\x1b[m\x1b[K(mutex_type& __m, adopt_lock_t) noexcept : _M_device(__m)\n'}
+[4.047547] (maestro_node) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.047583] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:231:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[4.047616] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:228:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<_Mutex>::lock_guard(std::lock_guard<_Mutex>::mutex_type&) [with _Mutex = std::mutex; std::lock_guard<_Mutex>::mutex_type = std::mutex]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.047647] (maestro_node) StderrLine: {'line': b'  228 |       explicit \x1b[01;36m\x1b[Klock_guard\x1b[m\x1b[K(mutex_type& __m) : _M_device(__m)\n'}
+[4.047673] (maestro_node) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.047702] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:228:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::mutex\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<std::mutex>::mutex_type&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::mutex&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.047743] (maestro_node) StderrLine: {'line': b'  228 |       explicit lock_guard(\x1b[01;36m\x1b[Kmutex_type& __m\x1b[m\x1b[K) : _M_device(__m)\n'}
+[4.047782] (maestro_node) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.113514] (-) TimerEvent: {}
+[4.120097] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.120298] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.120392] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.120469] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.120537] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.120603] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.120663] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.120722] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.120781] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.120841] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.120920] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.120999] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/ROSMaestroController.h:4\x1b[m\x1b[K,\n'}
+[4.121060] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:1\x1b[m\x1b[K:\n'}
+[4.121125] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ROSMaestroController::connectCallback(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.121185] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:57:111:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const std::__shared_ptr_access<rclcpp::Publisher<sensor_msgs::msg::JointState_<std::allocator<void> > >, __gnu_cxx::_S_atomic, false, false>*)(& pub))->std::__shared_ptr_access<rclcpp::Publisher<sensor_msgs::msg::JointState_<std::allocator<void> > >, __gnu_cxx::_S_atomic, false, false>::operator->()->rclcpp::Publisher<sensor_msgs::msg::JointState_<std::allocator<void> > >::<anonymous>.rclcpp::PublisherBase::get_topic_name()\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.121261] (maestro_node) StderrLine: {'line': b'   57 |     RCLCPP_INFO(node_->get_logger(), "Connect: %s - %s", pub->get_subscription_count(), pub->get_topic_name().\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[4.121327] (maestro_node) StderrLine: {'line': b'      |                                                                                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.122990] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ROSMaestroController::loadConfiguration()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.123094] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:103:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::set_parameter(std::__cxx11::basic_string<char>, double&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.123140] (maestro_node) StderrLine: {'line': b'  103 |         \x1b[01;31m\x1b[Knode_->set_parameter(name_node_ + "/timer/rate", rate)\x1b[m\x1b[K;\n'}
+[4.123177] (maestro_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.123322] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.123458] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.123545] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.123621] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/ROSMaestroController.h:4\x1b[m\x1b[K,\n'}
+[4.123689] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:1\x1b[m\x1b[K:\n'}
+[4.123752] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.123825] (maestro_node) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[4.124017] (maestro_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.124081] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.124150] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:114:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::set_parameter(std::__cxx11::basic_string<char>, std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.124213] (maestro_node) StderrLine: {'line': b'  114 |         \x1b[01;31m\x1b[Knode_->set_parameter(name_node_ + "/" + tf_string + "/" + joint_string, tf_joint_string_)\x1b[m\x1b[K;\n'}
+[4.124274] (maestro_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.124337] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.124370] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.124398] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.124426] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/ROSMaestroController.h:4\x1b[m\x1b[K,\n'}
+[4.124458] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:1\x1b[m\x1b[K:\n'}
+[4.124490] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.124552] (maestro_node) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[4.124578] (maestro_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.124603] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.124630] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ROSMaestroController::addServo(std::string, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.124657] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:126:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::set_parameter(std::__cxx11::basic_string<char>, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.124689] (maestro_node) StderrLine: {'line': b'  126 |     \x1b[01;31m\x1b[Knode_->set_parameter(name_node_ + "/servo/length", length + 1)\x1b[m\x1b[K;\n'}
+[4.124721] (maestro_node) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.124759] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.124793] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.124823] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.124911] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/ROSMaestroController.h:4\x1b[m\x1b[K,\n'}
+[4.124940] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:1\x1b[m\x1b[K:\n'}
+[4.124964] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.124990] (maestro_node) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[4.125015] (maestro_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.125038] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.125062] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:133:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::set_parameter(std::__cxx11::basic_string<char>, std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.125087] (maestro_node) StderrLine: {'line': b'  133 |     \x1b[01;31m\x1b[Knode_->set_parameter(name_node_ + "/servo/name/" + convert.str(), temp_servo.name)\x1b[m\x1b[K;\n'}
+[4.125113] (maestro_node) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.125138] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.125162] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.125186] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.125210] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/ROSMaestroController.h:4\x1b[m\x1b[K,\n'}
+[4.125233] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:1\x1b[m\x1b[K:\n'}
+[4.125259] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.125284] (maestro_node) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[4.125307] (maestro_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.125330] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.125354] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:134:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::set_parameter(std::__cxx11::basic_string<char>, int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.125378] (maestro_node) StderrLine: {'line': b'  134 |     \x1b[01;31m\x1b[Knode_->set_parameter(name_node_ + "/servo/channel/" + convert.str(), temp_servo.channel)\x1b[m\x1b[K;\n'}
+[4.125403] (maestro_node) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.125431] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.125455] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.125478] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.125501] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/ROSMaestroController.h:4\x1b[m\x1b[K,\n'}
+[4.125525] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/ROSMaestroController.cpp:1\x1b[m\x1b[K:\n'}
+[4.125548] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.125572] (maestro_node) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[4.125596] (maestro_node) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.125620] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.213660] (-) TimerEvent: {}
+[4.314009] (-) TimerEvent: {}
+[4.414359] (-) TimerEvent: {}
+[4.514710] (-) TimerEvent: {}
+[4.535855] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[4.536083] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[4.536173] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:41\x1b[m\x1b[K,\n'}
+[4.536246] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[4.536319] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[4.536375] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[4.536402] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[4.536427] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[4.536463] (maestro_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/maestro_node.cpp:2\x1b[m\x1b[K:\n'}
+[4.536487] (maestro_node) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ROSMaestroController; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, MaestroNode*, TimeoutSerial*}; _Tp = ROSMaestroController]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.536517] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ROSMaestroController; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, MaestroNode*, TimeoutSerial*}; _Tp = ROSMaestroController; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<ROSMaestroController>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536552] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, MaestroNode*, TimeoutSerial*}; _Tp = ROSMaestroController; _Alloc = std::allocator<ROSMaestroController>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536579] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ROSMaestroController; _Alloc = std::allocator<ROSMaestroController>; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, MaestroNode*, TimeoutSerial*}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536608] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ROSMaestroController>; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, MaestroNode*, TimeoutSerial*}; _Tp = ROSMaestroController; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536639] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ROSMaestroController>; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, MaestroNode*, TimeoutSerial*}; _Tp = ROSMaestroController]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536666] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ROSMaestroController; _Alloc = std::allocator<ROSMaestroController>; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, MaestroNode*, TimeoutSerial*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536693] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ROSMaestroController; _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, MaestroNode*, TimeoutSerial*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536720] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/maestro_node.cpp:20:61:\x1b[m\x1b[K   required from here\n'}
+[4.536748] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KROSMaestroController::ROSMaestroController(std::__cxx11::basic_string<char>&, MaestroNode*, TimeoutSerial*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536777] (maestro_node) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[4.536804] (maestro_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.536831] (maestro_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/src/maestro_node.cpp:5\x1b[m\x1b[K:\n'}
+[4.536857] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/ROSMaestroController.h:19:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KROSMaestroController::ROSMaestroController(std::string, std::shared_ptr<rclcpp::Node>, TimeoutSerial*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536898] (maestro_node) StderrLine: {'line': b'   19 |     \x1b[01;36m\x1b[KROSMaestroController\x1b[m\x1b[K(std::string name_node, std::shared_ptr<rclcpp::Node> node, TimeoutSerial* serial);\n'}
+[4.536926] (maestro_node) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.536952] (maestro_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maxime/ros2_ws/src/maestro_node/include/ROSMaestroController.h:19:79:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[KMaestroNode*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.536980] (maestro_node) StderrLine: {'line': b'   19 |     ROSMaestroController(std::string name_node, \x1b[01;36m\x1b[Kstd::shared_ptr<rclcpp::Node> node\x1b[m\x1b[K, TimeoutSerial* serial);\n'}
+[4.537006] (maestro_node) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.550628] (maestro_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/maestro_node.dir/build.make:90: CMakeFiles/maestro_node.dir/src/PololuController.cpp.o] Error 1\n'}
+[4.550838] (maestro_node) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.614853] (-) TimerEvent: {}
+[4.666304] (maestro_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/maestro_node.dir/build.make:118: CMakeFiles/maestro_node.dir/src/maestro_node.cpp.o] Error 1\n'}
+[4.714992] (-) TimerEvent: {}
+[4.815334] (-) TimerEvent: {}
+[4.915678] (-) TimerEvent: {}
+[5.016048] (-) TimerEvent: {}
+[5.116400] (-) TimerEvent: {}
+[5.216752] (-) TimerEvent: {}
+[5.317115] (-) TimerEvent: {}
+[5.417450] (-) TimerEvent: {}
+[5.517789] (-) TimerEvent: {}
+[5.618147] (-) TimerEvent: {}
+[5.718496] (-) TimerEvent: {}
+[5.818842] (-) TimerEvent: {}
+[5.919203] (-) TimerEvent: {}
+[6.019553] (-) TimerEvent: {}
+[6.085544] (maestro_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/maestro_node.dir/build.make:104: CMakeFiles/maestro_node.dir/src/ROSMaestroController.cpp.o] Error 1\n'}
+[6.086116] (maestro_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/maestro_node.dir/all] Error 2\n'}
+[6.086566] (maestro_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.089084] (maestro_node) CommandEnded: {'returncode': 2}
+[6.119636] (-) TimerEvent: {}
+[6.140292] (maestro_node) JobEnded: {'identifier': 'maestro_node', 'rc': 2}
+[6.150611] (-) EventReactorShutdown: {}

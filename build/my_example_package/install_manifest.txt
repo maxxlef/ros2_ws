@@ -1,0 +1,15 @@
+/home/maxime/ros2_ws/install/my_example_package/share/ament_index/resource_index/package_run_dependencies/my_example_package
+/home/maxime/ros2_ws/install/my_example_package/share/ament_index/resource_index/parent_prefix_path/my_example_package
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/environment/ament_prefix_path.sh
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/environment/ament_prefix_path.dsv
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/environment/path.sh
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/environment/path.dsv
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/local_setup.bash
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/local_setup.sh
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/local_setup.zsh
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/local_setup.dsv
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/package.dsv
+/home/maxime/ros2_ws/install/my_example_package/share/ament_index/resource_index/packages/my_example_package
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/cmake/my_example_packageConfig.cmake
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/cmake/my_example_packageConfig-version.cmake
+/home/maxime/ros2_ws/install/my_example_package/share/my_example_package/package.xml
