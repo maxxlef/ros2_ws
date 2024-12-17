@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gyro_publisher_package</name>
+  <version>0.0.1</version>
+  <description>Package pour publier les données du gyroscope via le port série.</description>
+  <maintainer email="ton-email@example.com">Ton Nom</maintainer>
+  <license>MIT</license>
+  
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend>
+  <exec_depend>std_msgs</exec_depend>
+  
+  <test_depend>pytest</test_depend>
+</package>

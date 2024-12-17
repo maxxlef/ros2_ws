@@ -1,0 +1,61 @@
+  ros2_ws/
+├── build/ 	#Apparait lors du build
+├── install/	#Apparait lors du build
+├── log/	#Apparait lors du build
+└── src/
+    ├── argparse/
+    │   └── plein de belles choses pour faire fonctionner ros2_kinect
+    ├── maestro_node/
+    │   ├── arvi.urdf
+    │   ├── CMakeLists.txt
+    │   ├── include/
+    │   │   ├── PololuController.h
+    │   │   ├── ROSMaestroController.h
+    │   │   └── TimeoutSerial.h
+    │   ├── launch/
+    │   │   ├── gui_control_launch.py
+    │   │   └── maestro_launch.py
+    │   ├── maestro2.yaml
+    │   ├── maestro.yaml
+    │   ├── notes_maestro_node.txt
+    │   ├── package.xml
+    │   ├── robot.urdf
+    │   └── src/
+    ├── ros2_kinect2/
+    │   ├── bin/
+    │   │   └── kinect2_node.cpp
+    │   ├── CMakeLists.txt
+    │   ├── CONTRIBUTING.md
+    │   ├── include/
+    │   │   └── kinect2/
+    │   │       ├── kinect2.hpp
+    │   │       └── utility.hpp
+    │   ├── LICENSE
+    │   ├── package.xml
+    │   ├── README.md
+    │   └── src/
+    │       ├── kinect2.cpp
+    │       └── utility.cpp
+    └── ros_maestro/
+        ├── CMakeLists.txt
+        ├── config/
+        │   └── pwmconfig_example.yaml
+        ├── include/
+        │   └── ros_maestro/
+        │       ├── __init__.py
+        │       ├── maestro.py
+        │       └── maestro_test.py
+        ├── launch/
+        │   ├── erl_launch.py
+        │   ├── maestro_launch.py
+        │   └── test_launch.py
+        ├── msg/
+        │   └── PwmCmd.msg
+        ├── notes_ros_maestro.txt
+        ├── package.xml
+        ├── setup.py
+        └── src/
+            ├── attopilot_driver.py
+            ├── maestro_driver.py
+            └── relay_driver.py
+
