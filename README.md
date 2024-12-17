@@ -57,7 +57,9 @@ ros2_ws/
     ├── argparse/   # Contient des outils pour travailler avec les arguments
     ├── maestro_node/  # Le contrôleur Maestro
     ├── ros2_kinect2/  # Intégration Kinect
-    └── ros_maestro/  # Le package Maestro pour contrôler les moteurs
+    ├── ros_maestro/  # Le package Maestro pour contrôler les moteurs
+    ├── motor_controller/ # Pour controller les moteurs
+    └── gyro_publisher_package/ # Pour publier les mesures du gyro
 ```
 
 ## Installation des dépendances
@@ -139,6 +141,14 @@ Ce package contient l'intégration de Kinect pour ROS2. Il vous permet d'utilise
 ### `ros_maestro`
 
 Ce package est responsable du contrôle du robot via le contrôleur Maestro. Il inclut des scripts Python pour interagir avec le matériel et des fichiers de configuration pour ajuster les paramètres du robot.
+
+### `motor_controller`
+
+Ce package permet de simplifier l'utilisation de ros_maestro
+
+### `gyro_publisher_package`
+
+Le nœud ROS2 est initialisé avec le nom gyro_publisher. Ce package publie sur le topic gyro_data les mesures.
 
 ## Contributions
 
