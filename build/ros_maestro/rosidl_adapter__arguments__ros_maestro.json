@@ -1,6 +1,0 @@
-{
-  "package_name": "ros_maestro",
-  "non_idl_tuples": [
-    "/home/maxime/ros2_ws/src/ros_maestro:msg/PwmCmd.msg"
-  ]
-}

@@ -1,4 +1,0 @@
-source;share/ros_maestro/environment/ament_prefix_path.sh
-source;share/ros_maestro/environment/library_path.sh
-source;share/ros_maestro/environment/path.sh
-source;share/ros_maestro/environment/pythonpath.sh
