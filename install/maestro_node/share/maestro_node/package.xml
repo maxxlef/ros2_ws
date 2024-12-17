@@ -27,9 +27,6 @@
   <depend>asio</depend>
   <depend>boost</depend>
 
-  <!-- Export section -->
-  <export>
-    <!-- Other tools can request additional information be placed here -->
-  </export>
+
 </package>
 

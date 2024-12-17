@@ -1,2 +1,0 @@
-Invoking command in '/home/maxime/ros2_ws/build/ros_maestro': /usr/bin/cmake /home/maxime/ros2_ws/src/ros_maestro -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/maxime/ros2_ws/install/ros_maestro
-Invoked command in '/home/maxime/ros2_ws/build/ros_maestro' returned '1': /usr/bin/cmake /home/maxime/ros2_ws/src/ros_maestro -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/maxime/ros2_ws/install/ros_maestro

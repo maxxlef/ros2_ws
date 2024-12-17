@@ -1,4 +1,0 @@
-Invoking command in '/home/maxime/ros2_ws/build/maestro_node': /usr/bin/cmake --build /home/maxime/ros2_ws/build/maestro_node -- -j16 -l16
-Invoked command in '/home/maxime/ros2_ws/build/maestro_node' returned '0': /usr/bin/cmake --build /home/maxime/ros2_ws/build/maestro_node -- -j16 -l16
-Invoking command in '/home/maxime/ros2_ws/build/maestro_node': /usr/bin/cmake --install /home/maxime/ros2_ws/build/maestro_node
-Invoked command in '/home/maxime/ros2_ws/build/maestro_node' returned '0': /usr/bin/cmake --install /home/maxime/ros2_ws/build/maestro_node

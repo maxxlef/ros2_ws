@@ -12,12 +12,14 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
+# Make sure the interface files are found correctly
+ament_export_dependencies(rosidl_default_runtime std_msgs sensor_msgs)
+
 # Declare ROS messages
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PwmCmd.msg"
   DEPENDENCIES std_msgs
 )
-
 
 # Declare the package
 ament_package()
@@ -45,19 +47,8 @@ install(DIRECTORY include/${PROJECT_NAME}
   DESTINATION include/${PROJECT_NAME}
 )
 
-# Install message files
-install(DIRECTORY msg
-  DESTINATION share/${PROJECT_NAME}/msg
-)
-
 # Install other necessary files
 install(DIRECTORY config
   DESTINATION share/${PROJECT_NAME}
 )
-
-# Make sure the interface files are found correctly
-ament_export_dependencies(rosidl_default_runtime)
-
-# Testing with ROS2 (you can add tests later if needed)
-# colcon test
 

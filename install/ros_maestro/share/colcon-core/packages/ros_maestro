@@ -1,1 +1,1 @@
-ament_cmake:ament_lint:ament_lint_auto:message_generation:rclcpp:rclpy:rosidl_default_generators:std_msgs
+ament_cmake:rclcpp:rclpy:rosidl_default_generators:rosidl_default_runtime:std_msgs

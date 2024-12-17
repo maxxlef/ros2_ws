@@ -1,25 +1,22 @@
 ros_maestro/
-├── CMakeLists.txt            # Fichier de configuration CMake
-├── package.xml              # Fichier de configuration du package ROS
-├── README.md                # Documentation du package
-├── LICENSE                  # Licence du package
-├── config/                  # Fichiers de configuration
+├── CMakeLists.txt
+├── config/
 │   └── pwmconfig_example.yaml
-├── include/                 # Fichiers d'en-tête pour le code C++
-│   ├── maestro/             # Dossier pour les fichiers d'en-tête et 
+├── include/
+│   └── maestro/
 │       ├── __init__.py
-│       ├── maestro.py       # Code Python lié à maestro
-│       └── maestro_test.py  # Tests unitaires pour maestro
-├── launch/                  # Fichiers de lancement ROS
+│       ├── maestro.py
+│       └── maestro_test.py
+├── launch/
 │   ├── erl_launch.py
 │   ├── maestro_launch.py
 │   └── test_launch.py
-├── msg/                     # Définition des messages ROS
+├── msg/
 │   └── PwmCmd.msg
-├── src/                     # Code source Python
-│   ├── attopilot_driver.py  # Driver pour Attopilot
-│   ├── maestro_driver.py    # Driver pour Maestro
-│   └── relay_driver.py      # Driver pour le relais
-└── setup.py                 # Fichier de configuration de l'installation Python
-
-
+├── package.xml
+├── src/
+│   ├── attopilot_driver.py
+│   ├── maestro_driver.py
+│   └── relay_driver.py
+└── notes_ros_maestro.txt
+└── setup.py

@@ -1,38 +1,35 @@
 <?xml version="1.0"?>
-<package format="2">
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>ros_maestro</name>
   <version>0.0.0</version>
   <description>Driver node for Pololu Maestro</description>
 
-  <!-- Maintainer tag -->
-  <maintainer email="simon.chanu@ensta.bretagne.org">Simon CHANU</maintainer>
-
-  <!-- License tag -->
-  <license>MIT</license>
-
-  <!-- Author tag -->
+  <!-- Informations sur le mainteneur et l'auteur -->
+  <maintainer email="simon.chanu@ensta-bretagne.org">Simon CHANU</maintainer>
   <author email="simon.chanu@ensta-bretagne.org">Simon CHANU</author>
 
-  <!-- Dependencies -->
+  <!-- Licence -->
+  <license>MIT</license>
+
+  <!-- Dépendances -->
   <depend>ament_cmake</depend>
-  <depend>message_generation</depend>
   <depend>rclcpp</depend>
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
   <depend>rosidl_default_generators</depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
 
+  <!-- Dépendances pour les tests -->
+  <test_depend>ament_lint</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
 
+  <!-- Indiquer que ce package fait partie du groupe des packages d'interfaces ROSIDL -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
 
-
-  <!-- Test dependencies (optional) -->
-  <depend>ament_lint</depend>
-  <depend>ament_lint_auto</depend>
-
-  <!-- Export section for additional metadata -->
+  <!-- Section export -->
   <export>
-    <rosdistro name="humble" />
-    <member_of_group>rosidl_interface_packages</member_of_group>
-    
+    <!-- Autres balises spécifiques si nécessaire -->
   </export>
 </package>
 
