@@ -1,0 +1,10 @@
+commandes :
+xdotool mousemove 0 0
+xdotool getmouselocation
+
+zone "+" : x:652 y:1013 
+zone "upload image" : x:653 y:948 
+
+
+xdotool mousemove 652 1013
+xdotool mousemove 653 948
