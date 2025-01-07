@@ -13,15 +13,19 @@ sleep 0.3
 xdotool mousemove 602 472
 xdotool click 1
 
+#documents
+#sleep 0.2
+#xdotool mousemove 402 359
+#xdotool click 1
 
 #bouton recherche
 sleep 0.2
 xdotool mousemove 1285 197
 xdotool click 1
 sleep 0.5
-xdotool type "porte_1"
+xdotool type --delay 500 "porte_2"
 xdotool mousemove 800 312
-sleep 1
+sleep 3
 xdotool click 1
 sleep 0.05
 xdotool click 1

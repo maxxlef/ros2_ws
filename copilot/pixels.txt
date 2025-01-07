@@ -1,10 +1,16 @@
-commandes :
+-------------------------------  notes  ----------------------------------
+
+commandes xdotool :
 xdotool mousemove 0 0
 xdotool getmouselocation
 
-zone "+" : x:652 y:1013 
-zone "upload image" : x:653 y:948 
+pour simuler un écran virtuel :
+installer xvfb :
+sudo apt-get update
+sudo apt-get install xvfb
+
+lancer la session virtuelle :
+Xvfb :99 -screen 0 1024x768x16 &
+export DISPLAY=:99
 
 
-xdotool mousemove 652 1013
-xdotool mousemove 653 948
